@@ -5,10 +5,13 @@ body {
     font-family: 'Ubuntu',sans-serif;
 }
 
-h1, h2, h3 {
-    line-height: 5px;
+img {
+    width: 15%;
 }
 
+h3 {
+    margin-bottom: 5px;
+}
 #resume {
     width: 8.5in;
     height: 11in;
