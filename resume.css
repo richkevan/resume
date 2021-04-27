@@ -45,6 +45,14 @@ h3 {
     width: 25%;
 }
 
+.side-heading {
+    margin-bottom: 2.5px;
+    padding-bottom: 2.5px;
+    line-height: 15px;
+    border-bottom: 2.5px solid black;
+    border-bottom-right-radius: 20px;
+}
+
 .clean-ul {
     list-style: none;
     padding-left: 0%;
