@@ -11,6 +11,11 @@ img {
 
 h3 {
     margin-bottom: 2.5px;
+    line-height: .5em;
+}
+
+li {
+    line-height: 1.25em;
 }
 #resume {
     width: 8.5in;
@@ -36,9 +41,7 @@ h3 {
     padding: 15px;
 }
 
-.certs-list {
-    padding-left: .25in;
-}
+
 
 .flex-container {
     display: flex;
@@ -59,7 +62,9 @@ h3 {
 
 .clean-ul {
     list-style: none;
-    padding-left: 0%;
+}
+.clean-ul-1 {
+    list-style-type: square;
 }
 
 .oxygen {
@@ -72,8 +77,11 @@ h3 {
     font-family: 'Oxygen', sans-serif;
     font-size: 1em;
     font-weight: 700;
+    padding: .5em 0 .25em;
+}
+.oxygen-heavy-li {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
 }
 
-.project-item {
-    padding-bottom: 2.5%;
-}
