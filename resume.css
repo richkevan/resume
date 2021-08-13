@@ -70,19 +70,23 @@ li {
 
 .oxygen {
     font-family: 'Oxygen', sans-serif;
-    font-size: .9em;
+    font-size: 1em;
     font-weight: 300;
 }
 
 .oxygen-heavy {
     font-family: 'Oxygen', sans-serif;
-    font-size: 1em;
+    font-size: 1.025em;
     font-weight: 700;
-    padding: .5em 0 .25em;
 }
-.oxygen-heavy-li {
+.oxygen-aside {
     font-family: 'Oxygen', sans-serif;
-    font-size: 1em;
-    font-weight: 700;
+    font-size: .9em;
+    font-weight: 300;
 }
 
+.oxygen-heavy-li {
+    font-family: 'Oxygen', sans-serif;
+    font-size: .9em;
+    font-weight: 700;
+}
