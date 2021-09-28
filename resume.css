@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Ubuntu:wght@500;700&display=swap');
 
 h1,h3,h5,p,ul {
-    
     margin: .25em;
+}
+
+a, a:visited {
+    color: black;
+    font-family: "Oxygen", sans-serif;
 }
 
 body {
@@ -24,6 +28,10 @@ body {
 
 .section {
     width: 100%;
+    margin-bottom: 1.5em;
+}
+.section > hr {
+    margin-bottom: .75em;
 }
 
 #heading {
@@ -31,12 +39,22 @@ body {
 }
 #nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #nav > *:not(:last-child) {
-    padding-right: 2em;
+    padding-right: .5em;
     border-right: 2px solid black;
+}
+
+.job > ul {
+    margin-bottom: .5em;
+}
+
+.education {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
 .clean-ul {
